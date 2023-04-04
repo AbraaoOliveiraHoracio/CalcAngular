@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <h3>Calculo</h3>
+  <form action="">
+    <input name="num1" id="num1" type="number" [(ngModel)]="num1">
+    <input name="num2" id="num2" type="number" [(ngModel)]="num2">
+    <input name="result" id="result" type="text" disabled [(ngModel)]="result">
+    <button name="calc" type="button" (click)="calc()" >+</button>
+    <button name="calc1" type="button" (click)="calc1()" >-</button>
+    <button name="calc2" type="button" (click)="calc2()" >*</button>
+    <button name="calc3" type="button" (click)="calc3()" >/</button>
+  </form>
+</div>
+</body>
+</html>

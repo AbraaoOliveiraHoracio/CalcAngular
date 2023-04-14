@@ -11,18 +11,18 @@
   <title>Document</title>
 </head>
 <body>
-<div class="container-fluid ">
+<div class="container-fluid  "type="success">
   <h3>Calculo</h3>
 
   <form action="">
-    <input class="number ,  " name="num1" id="num1" type="number" [(ngModel)]="num1">
-    <input class="inpu ,form-control" name="num2" id="num2" type="number" [(ngModel)]="num2">
-    <input class="Result" name="result" id="result" type="text" disabled [(ngModel)]="result">
+    <input class="number , col-5 " name="num1" id="num1" type="number" [(ngModel)]="num1">
+    <input class="inpu ,form-control col-5 " name="num2" id="num2" type="number" [(ngModel)]="num2">
+    <input class="Resulto col-4" name="result" id="result" type="text" disabled [(ngModel)]="result">
     <br>
     <br>
     <button class="buton, btn btn-outline-secondary col-2" name="calc" type="button" (click)="calc()" >+</button>
     <button class="buton, btn btn-outline-secondary col-2" name="calc1" type="button" (click)="calc1()" >-</button>
-    <button class="buton, btn btn-outline-secondary col-2" name="calc2" type="button" (click)="calc2()" >*</button>
+    <button class="buton, btn btn-outline-secondary col-2" name="calc2" type="button" (click)="calc2()" >X</button>
     <button class="buton, btn btn-outline-secondary col-2"  name="calc3" type="button" (click)="calc3()" >/</button>
   </form>
 </div>

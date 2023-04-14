@@ -10,13 +10,15 @@
 <div class="container">
   <h3>Calculo</h3>
   <form action="">
-    <input name="num1" id="num1" type="number" [(ngModel)]="num1">
-    <input name="num2" id="num2" type="number" [(ngModel)]="num2">
-    <input name="result" id="result" type="text" disabled [(ngModel)]="result">
-    <button name="calc" type="button" (click)="calc()" >+</button>
-    <button name="calc1" type="button" (click)="calc1()" >-</button>
-    <button name="calc2" type="button" (click)="calc2()" >*</button>
-    <button name="calc3" type="button" (click)="calc3()" >/</button>
+    <input class="inpu" name="num1" id="num1" type="number" [(ngModel)]="num1">
+    <input class="inpu" name="num2" id="num2" type="number" [(ngModel)]="num2">
+    <input class="Result" name="result" id="result" type="text" disabled [(ngModel)]="result">
+    <br>
+    <br>
+    <button class="buton" name="calc" type="button" (click)="calc()" >+</button>
+    <button class="buton" name="calc1" type="button" (click)="calc1()" >-</button>
+    <button class="buton" name="calc2" type="button" (click)="calc2()" >*</button>
+    <button class="buton" name="calc3" type="button" (click)="calc3()" >/</button>
   </form>
 </div>
 </body>
